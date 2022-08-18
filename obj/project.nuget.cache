@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "nNOqTHmxp6VtxYMWiWMm2SHhzr2H2jfsGFw9WX1tpr2BZPxyjnmDf5UxjIuHeRZT9Bhc/VKHtql/gUKUwcOTxw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gabriel.oliveira\\Desktop\\Hobby\\CashDrawer\\CashDrawer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gabriel.oliveira\\.nuget\\packages\\posfordotnet.sdk\\1.14.1\\posfordotnet.sdk.1.14.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'POSForDotNet.SDK 1.14.1' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net6.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "POSForDotNet.SDK",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

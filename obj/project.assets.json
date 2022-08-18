@@ -1,0 +1,123 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "POSForDotNet.SDK/1.14.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.PointOfService.ControlBase.dll": {
+            "related": ".xml"
+          },
+          "lib/net40/Microsoft.PointOfService.dll": {
+            "related": ".ControlBase.xml;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Microsoft.PointOfService.ControlBase.dll": {
+            "related": ".xml"
+          },
+          "lib/net40/Microsoft.PointOfService.dll": {
+            "related": ".ControlBase.xml;.xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "POSForDotNet.SDK/1.14.1": {
+      "sha512": "SMn3xtxV11muSHRQymawNhc2apjwWoIKQC98UYuCeZVb+iJgcNuN/t//avhg/ZYcV1J334tbiWarQzRBJv21MA==",
+      "type": "package",
+      "path": "posfordotnet.sdk/1.14.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "docs/POS for .NET SDK.chm",
+        "lib/net40/Microsoft.PointOfService.ControlBase.dll",
+        "lib/net40/Microsoft.PointOfService.ControlBase.xml",
+        "lib/net40/Microsoft.PointOfService.dll",
+        "lib/net40/Microsoft.PointOfService.xml",
+        "posfordotnet.sdk.1.14.1.nupkg.sha512",
+        "posfordotnet.sdk.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "POSForDotNet.SDK >= 1.14.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\gabriel.oliveira\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\gabriel.oliveira\\Desktop\\Hobby\\CashDrawer\\CashDrawer.csproj",
+      "projectName": "CashDrawer",
+      "projectPath": "C:\\Users\\gabriel.oliveira\\Desktop\\Hobby\\CashDrawer\\CashDrawer.csproj",
+      "packagesPath": "C:\\Users\\gabriel.oliveira\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gabriel.oliveira\\Desktop\\Hobby\\CashDrawer\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\gabriel.oliveira\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "POSForDotNet.SDK": {
+            "target": "Package",
+            "version": "[1.14.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'POSForDotNet.SDK 1.14.1' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net6.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "POSForDotNet.SDK",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
